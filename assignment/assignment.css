@@ -1,0 +1,68 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+​
+html {
+    /* default rem value */
+    font-size: 62.5%;    /* 1rem = 10px; 10px/16px = 62.5% */
+}
+​
+body {
+    box-sizing: border-box;
+    padding: 1rem;
+    background-color: black;
+    overflow: hidden;
+}
+
+
+td {
+  padding: 0px 20px;
+}
+
+h2 {
+  
+  font-weight:lighter;
+}
+
+p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+  font-weight: lighter;
+  padding: 10px 0px;
+}
+
+
+h1,h2 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+  text-align: center;
+}
+
+
+.underline {
+  padding: 30px 0px;
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+.img {
+  padding-top: 30px;
+}
+
+#col-middle {
+  border-left: 10px solid black;
+  border-right: 10px solid black;
+}
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;  
+}
+
+#auction {
+  border-top: 10px solid black;
+  border-bottom: 10px solid black;
+}
